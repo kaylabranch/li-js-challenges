@@ -2,7 +2,7 @@
 
 // Create a book class
 // Title, Author, ISBN, numCopies
-class Book {
+export default class Book {
     constructor(title, author, isbn, numCopies) {
       this.title = title;
       this.author = author;
